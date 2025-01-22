@@ -1,0 +1,21 @@
+Parking Inteligente en C++
+
+Descripción de la funcionalidad del sistema
+
+El sistema Parking Inteligente fue diseñado para gestionar de manera automatizada el control de un estacionamiento, proporcionando una interfaz intuitiva y fácil de usar. 
+Este sistema permite administrar de forma eficiente la entrada y salida de vehículos, especialmente en estacionamientos de gran tamaño, donde la gestión manual 
+puede volverse compleja. Con tan solo un operador y este sistema, es posible optimizar el uso del espacio sin necesidad de mayores recursos.
+
+El sistema opera mediante tres funciones principales:
+
+    1. Ingreso de vehículos: Antes de permitir la entrada, el sistema verifica si hay espacio disponible. 
+    En caso afirmativo, se reserva el espacio para el cliente, registrando la matrícula del vehículo junto con la hora de entrada.
+    2. Salida de vehículos: Al retirar el vehículo, el sistema calcula automáticamente el costo según el tiempo de uso del espacio, 
+    con una tarifa fija de $22 por minuto. 
+    Este cálculo se realiza tomando en cuenta la hora de entrada previamente registrada.
+    3. Generación de reportes diarios: Al final del día, el sistema puede generar un informe que detalla la cantidad de clientes 
+    atendidos y el total de ingresos generados.
+
+El sistema garantiza un control preciso y eficiente del estacionamiento, optimizando los recursos y mejorando la experiencia tanto para los operadores como para los usuarios.
+
+
